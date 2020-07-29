@@ -21,7 +21,7 @@ $(function () {
             i = 0;
         }
         $("#dvImage").fadeOut("slow", function () {
-            $(this).css("background-image", "url(images/" + images[i] + ")");
+            $(this).css("background-image", "url(Images/" + images[i] + ")");
             $(this).fadeIn("slow");
         });
     }, 10000);
